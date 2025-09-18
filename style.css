@@ -1,0 +1,51 @@
+.merkez{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+  
+}
+/* liste için ara */
+ol li{
+    margin: 0px 15px;
+}
+
+.orta{
+    list-style: disc;
+    list-style-position: inside;
+    text-align: center;
+}
+
+.orta1 li{
+   
+    list-style-position: inside;
+    text-align: center;
+    
+}
+.orta2{
+    
+    width: 300px;
+    height: auto;
+}
+
+
+
+.cr{
+    color:red;
+}
+.cy{
+    color: darkgoldenrod;
+}
+.cp{
+    color:darkorchid;
+}
+/* resim boyutu */
+.resim{
+    width: 100px;
+    height: 100px;
+}
