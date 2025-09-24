@@ -1,51 +1,53 @@
-.merkez{
-    display: flex;
-    justify-content: center;
-}
-
-.navbar{
-     display: flex;
-    justify-content: center;
-    text-align: center;
-    list-style: none;
-  
-}
-/* liste için ara */
-ol li{
-    margin: 0px 15px;
-}
-
-.orta{
-    list-style: disc;
-    list-style-position: inside;
-    text-align: center;
-}
-
-.orta1 li{
-   
-    list-style-position: inside;
-    text-align: center;
+body{
+    background-image: url(/img/pexels-moose-photos-170195-1037992.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow:hidden;
     
 }
-.orta2{
+.noktalama li{
+list-style-position: inside;
+
+}
+
+.hover a{
+    color: rgb(0, 0, 0);
+    background-color:rgba(150, 7, 53, 0.86);
+    transition: all .50s ease;
+}
+
+.hover a:hover{
+    background-color: #53033b;
+    color: rgb(255, 255, 255);
+}
+article h3{
+    color: rgba(150, 7, 53, 0.86);
+}
+article ul li {
+  color: rgba(150, 7, 53, 0.86);
+    font-size: 20px;
+    list-style-type:disc;
+    padding-right: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
     
-    width: 300px;
-    height: auto;
 }
 
-
-
-.cr{
-    color:red;
+article ul{
+   display: inline-block;
+   text-align: left;
 }
-.cy{
-    color: darkgoldenrod;
+main aside .card img{
+    height: 350px;
+    width: auto;
+    border: #53033b solid 7px;
+    border-radius: 56px;
+    margin: 5px 0;
+    padding: 5px;    
 }
-.cp{
-    color:darkorchid;
-}
-/* resim boyutu */
-.resim{
-    width: 100px;
-    height: 100px;
+main aside .card p{
+    border: #53033b solid;
+    border-radius: 56px;
 }
